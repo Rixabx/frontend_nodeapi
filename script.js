@@ -89,6 +89,7 @@ function putData() {
         })
 }
 function deleteData(id) {
+    alert(`_id value:${id}`);
     user_input = confirm("Are you sure you want to delete this record?");
     if (user_input) {
         fetch(api_url, {
